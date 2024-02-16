@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.container {
+  width: 70%;
+  margin: 22px auto;
+}
+.titulo1 {
+  text-align: center;
+  /* background-color: #3F78E0; */
+}
+.parrafo {
+  text-align: justify;
+  margin-top: 15px;
+}
+.titulo2 {
+  text-align: justify;
+  margin-top: 10px;
+}
+.card_container {
+  width: 100%;
+  /* border: solid 1px #a2a2a2; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  place-items: center;
+  margin-top: 10px;
+}
+.card {
+  width: 200px;
+  height: 200px;
+  background-color: #e0e9fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 7px;
+}
+.card_indice {
+  background-color: #3f78e0;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: white;
+}
+.card_boton {
+  width: 60%;
+  /* /* background-color: #3F78E0 */
+  text-decoration: none;
+  display: flex;
+  padding: 2px 10px;
+  justify-content: center;
+  border-radius: 4px;
+  color: #3f78e0;
+  gap: 5px;
+}
+.card-2 {
+  background-color: #fae6e7;
+}
+.card_indice-2 {
+  background-color: #e2626b;
+}
+.card_boton-2 {
+  color: #e2626b;
+}
+.card-3 {
+  background-color: #eaf3ef;
+}
+.card_indice-3 {
+  background-color: #7cb798;
+}
+.card_boton-3 {
+  color: #7cb798;
+}
+.card-4 {
+  background-color: #fef3e4;
+}
+.card_indice-4 {
+  background-color: #fab758;
+}
+.card_boton-4 {
+  color: #fab758;
+}
+.ilustracion {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ilustracion img {
+  width: 300px;
+}
+.pie {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  color: #cbcbcb;
+  padding: 10px;
+}
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+  .card_container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .card {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .ilustracion img {
+    width: 270px;
+  }
+}
+@media (max-width: 550px) {
+  .card_container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
