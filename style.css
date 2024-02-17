@@ -17,6 +17,14 @@ body {
   width: 70%;
   margin: 22px auto;
 }
+.logo{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.logo img{
+  width: 50%;
+}
 .titulo1 {
   text-align: center;
   /* background-color: #3F78E0; */
@@ -134,8 +142,8 @@ body {
     width: 100%;
     margin-bottom: 10px;
   }
-  .ilustracion img {
-    width: 270px;
+  .logo img{
+    width: 100%;
   }
 }
 @media (max-width: 550px) {
