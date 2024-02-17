@@ -97,6 +97,15 @@ body {
 .card_boton-4 {
   color: #fab758;
 }
+.card-5 {
+  background-color: #fad9f3;
+}
+.card_indice-5 {
+  background-color: #ff00c8;
+}
+.card_boton-5 {
+  color: #ff00c8;
+}
 .ilustracion {
   width: 100%;
   height: 300px;
